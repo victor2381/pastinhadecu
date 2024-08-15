@@ -9,3 +9,29 @@ body {color: black;}
 <link rel=”stylesheet” href=”styles.css”>
 <link rel=”stylesheet” href=”reset.css”>
 </head>
+
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@import url("estilos/cabecalho.css");
+@import url("estilos/corpo.css");
+@import url("estilos/rodape.css");
